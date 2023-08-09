@@ -1,0 +1,40 @@
+http://localhost:3000/api/get-post 
+
+###
+POST http://localhost:3000/api/greate-post 
+content-type: application/json
+
+{
+     "name":"good morning world",
+    "text": "sample6"
+}
+
+### 
+
+POST http://localhost:3000/api/delete-post 
+content-type: application/json
+
+{
+    "text": "sample1"
+}
+
+###
+POST http://localhost:3000/api/update-post 
+content-type: application/json
+
+{
+    "text": "test"
+}
+
+###
+POST http://localhost:3000/api/deleteAllPost
+content-type: application/json
+
+{
+    "text": "test5"
+}
+
+###
+GET  http://localhost:3000/api/getOnePost?text=world 
+
+
